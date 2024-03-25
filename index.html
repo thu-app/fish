@@ -8,8 +8,6 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/MarkerCluster.css">
-        <link rel="stylesheet" href="css/MarkerCluster.Default.css">
         <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
@@ -36,7 +34,6 @@
         <script src="js/labels.js"></script>
         <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
         <script src="js/leaflet-measure.js"></script>
-        <script src="js/leaflet.markercluster.js"></script>
         <script src="data/zonePipeline_1.js"></script>
         <script src="data/PipeLinePTT_2.js"></script>
         <script src="data/Station_3.js"></script>
@@ -467,12 +464,8 @@
                 return L.circleMarker(latlng, style__5_0(feature));
             },
         });
-        var cluster__5 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__5.addLayer(layer__5);
-
         bounds_group.addLayer(layer__5);
-        cluster__5.addTo(map);
+        map.addLayer(layer__5);
         function pop__6(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -557,12 +550,8 @@
                 return L.circleMarker(latlng, style__6_0(feature));
             },
         });
-        var cluster__6 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__6.addLayer(layer__6);
-
         bounds_group.addLayer(layer__6);
-        cluster__6.addTo(map);
+        map.addLayer(layer__6);
         function pop__7(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -647,12 +636,8 @@
                 return L.circleMarker(latlng, style__7_0(feature));
             },
         });
-        var cluster__7 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__7.addLayer(layer__7);
-
         bounds_group.addLayer(layer__7);
-        cluster__7.addTo(map);
+        map.addLayer(layer__7);
         function pop__8(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -737,12 +722,8 @@
                 return L.circleMarker(latlng, style__8_0(feature));
             },
         });
-        var cluster__8 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__8.addLayer(layer__8);
-
         bounds_group.addLayer(layer__8);
-        cluster__8.addTo(map);
+        map.addLayer(layer__8);
         function pop__9(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -827,12 +808,8 @@
                 return L.circleMarker(latlng, style__9_0(feature));
             },
         });
-        var cluster__9 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__9.addLayer(layer__9);
-
         bounds_group.addLayer(layer__9);
-        cluster__9.addTo(map);
+        map.addLayer(layer__9);
         function pop__10(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -917,12 +894,8 @@
                 return L.circleMarker(latlng, style__10_0(feature));
             },
         });
-        var cluster__10 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__10.addLayer(layer__10);
-
         bounds_group.addLayer(layer__10);
-        cluster__10.addTo(map);
+        map.addLayer(layer__10);
         function pop__11(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1007,12 +980,8 @@
                 return L.circleMarker(latlng, style__11_0(feature));
             },
         });
-        var cluster__11 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__11.addLayer(layer__11);
-
         bounds_group.addLayer(layer__11);
-        cluster__11.addTo(map);
+        map.addLayer(layer__11);
         function pop__12(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1097,12 +1066,8 @@
                 return L.circleMarker(latlng, style__12_0(feature));
             },
         });
-        var cluster__12 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__12.addLayer(layer__12);
-
         bounds_group.addLayer(layer__12);
-        cluster__12.addTo(map);
+        map.addLayer(layer__12);
         function pop__13(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1187,12 +1152,8 @@
                 return L.circleMarker(latlng, style__13_0(feature));
             },
         });
-        var cluster__13 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__13.addLayer(layer__13);
-
         bounds_group.addLayer(layer__13);
-        cluster__13.addTo(map);
+        map.addLayer(layer__13);
         function pop__14(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1277,12 +1238,8 @@
                 return L.circleMarker(latlng, style__14_0(feature));
             },
         });
-        var cluster__14 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__14.addLayer(layer__14);
-
         bounds_group.addLayer(layer__14);
-        cluster__14.addTo(map);
+        map.addLayer(layer__14);
         function pop__15(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1367,12 +1324,8 @@
                 return L.circleMarker(latlng, style__15_0(feature));
             },
         });
-        var cluster__15 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__15.addLayer(layer__15);
-
         bounds_group.addLayer(layer__15);
-        cluster__15.addTo(map);
+        map.addLayer(layer__15);
         function pop__16(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1457,12 +1410,8 @@
                 return L.circleMarker(latlng, style__16_0(feature));
             },
         });
-        var cluster__16 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__16.addLayer(layer__16);
-
         bounds_group.addLayer(layer__16);
-        cluster__16.addTo(map);
+        map.addLayer(layer__16);
         function pop__17(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1547,12 +1496,8 @@
                 return L.circleMarker(latlng, style__17_0(feature));
             },
         });
-        var cluster__17 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__17.addLayer(layer__17);
-
         bounds_group.addLayer(layer__17);
-        cluster__17.addTo(map);
+        map.addLayer(layer__17);
         function pop__18(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1637,12 +1582,8 @@
                 return L.circleMarker(latlng, style__18_0(feature));
             },
         });
-        var cluster__18 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__18.addLayer(layer__18);
-
         bounds_group.addLayer(layer__18);
-        cluster__18.addTo(map);
+        map.addLayer(layer__18);
         function pop__19(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1727,12 +1668,8 @@
                 return L.circleMarker(latlng, style__19_0(feature));
             },
         });
-        var cluster__19 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__19.addLayer(layer__19);
-
         bounds_group.addLayer(layer__19);
-        cluster__19.addTo(map);
+        map.addLayer(layer__19);
         function pop__20(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1817,12 +1754,8 @@
                 return L.circleMarker(latlng, style__20_0(feature));
             },
         });
-        var cluster__20 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__20.addLayer(layer__20);
-
         bounds_group.addLayer(layer__20);
-        cluster__20.addTo(map);
+        map.addLayer(layer__20);
         function pop__21(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1907,12 +1840,8 @@
                 return L.circleMarker(latlng, style__21_0(feature));
             },
         });
-        var cluster__21 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__21.addLayer(layer__21);
-
         bounds_group.addLayer(layer__21);
-        cluster__21.addTo(map);
+        map.addLayer(layer__21);
         function pop__22(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -1997,12 +1926,8 @@
                 return L.circleMarker(latlng, style__22_0(feature));
             },
         });
-        var cluster__22 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__22.addLayer(layer__22);
-
         bounds_group.addLayer(layer__22);
-        cluster__22.addTo(map);
+        map.addLayer(layer__22);
         function pop__23(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -2087,12 +2012,8 @@
                 return L.circleMarker(latlng, style__23_0(feature));
             },
         });
-        var cluster__23 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__23.addLayer(layer__23);
-
         bounds_group.addLayer(layer__23);
-        cluster__23.addTo(map);
+        map.addLayer(layer__23);
         function pop__24(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -2177,12 +2098,8 @@
                 return L.circleMarker(latlng, style__24_0(feature));
             },
         });
-        var cluster__24 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__24.addLayer(layer__24);
-
         bounds_group.addLayer(layer__24);
-        cluster__24.addTo(map);
+        map.addLayer(layer__24);
         function pop__25(feature, layer) {
             layer.on({
                 mouseout: function(e) {
@@ -2267,12 +2184,8 @@
                 return L.circleMarker(latlng, style__25_0(feature));
             },
         });
-        var cluster__25 = new L.MarkerClusterGroup({showCoverageOnHover: false,
-            spiderfyDistanceMultiplier: 2});
-        cluster__25.addLayer(layer__25);
-
         bounds_group.addLayer(layer__25);
-        cluster__25.addTo(map);
+        map.addLayer(layer__25);
         var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
@@ -2284,7 +2197,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .title += 'Search for a place';
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/_25.png" /> กดเหลือง': cluster__25,'<img src="legend/_24.png" /> กระดี่หม้อ': cluster__24,'<img src="legend/_23.png" /> กั้ง': cluster__23,'<img src="legend/_22.png" /> ขี้ยอกกระ': cluster__22,'<img src="legend/_21.png" /> เข็มน้ำจืด': cluster__21,'<img src="legend/_20.png" /> ค้อ': cluster__20,'<img src="legend/_19.png" /> ค้อลายปล้องภาคกลาง': cluster__19,'<img src="legend/_18.png" /> ค้อสามขีดทองผาภูมิ': cluster__18,'<img src="legend/_17.png" /> ซิวข้าวสาร': cluster__17,'<img src="legend/_16.png" /> ซิวควายแถบดำ': cluster__16,'<img src="legend/_15.png" /> ซิวใบไผ่ราชินี': cluster__15,'<img src="legend/_14.png" /> ซิวหนวดยาว': cluster__14,'<img src="legend/_13.png" /> ซิวหางกรรไกร': cluster__13,'<img src="legend/_12.png" /> ตะเพียนน้ำตก': cluster__12,'<img src="legend/_11.png" /> นิล': cluster__11,'<img src="legend/_10.png" /> แป้นแก้ว': cluster__10,'<img src="legend/_9.png" /> พลวงหิน': cluster__9,'<img src="legend/_8.png" /> สร้อยนกเขา': cluster__8,'<img src="legend/_7.png" /> ไส้ตันตาแดง': cluster__7,'<img src="legend/_6.png" /> หมอช้างเหยียบ': cluster__6,'<img src="legend/_5.png" /> หางนกยูง': cluster__5,'<img src="legend/Province_4.png" /> Province': layer_Province_4,'<img src="legend/Station_3.png" /> Station': layer_Station_3,'<img src="legend/PipeLinePTT_2.png" /> PipeLinePTT': layer_PipeLinePTT_2,'<img src="legend/zonePipeline_1.png" /> zonePipeline': layer_zonePipeline_1,"GoogleMaps": layer_GoogleMaps_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/_25.png" /> กดเหลือง': layer__25,'<img src="legend/_24.png" /> กระดี่หม้อ': layer__24,'<img src="legend/_23.png" /> กั้ง': layer__23,'<img src="legend/_22.png" /> ขี้ยอกกระ': layer__22,'<img src="legend/_21.png" /> เข็มน้ำจืด': layer__21,'<img src="legend/_20.png" /> ค้อ': layer__20,'<img src="legend/_19.png" /> ค้อลายปล้องภาคกลาง': layer__19,'<img src="legend/_18.png" /> ค้อสามขีดทองผาภูมิ': layer__18,'<img src="legend/_17.png" /> ซิวข้าวสาร': layer__17,'<img src="legend/_16.png" /> ซิวควายแถบดำ': layer__16,'<img src="legend/_15.png" /> ซิวใบไผ่ราชินี': layer__15,'<img src="legend/_14.png" /> ซิวหนวดยาว': layer__14,'<img src="legend/_13.png" /> ซิวหางกรรไกร': layer__13,'<img src="legend/_12.png" /> ตะเพียนน้ำตก': layer__12,'<img src="legend/_11.png" /> นิล': layer__11,'<img src="legend/_10.png" /> แป้นแก้ว': layer__10,'<img src="legend/_9.png" /> พลวงหิน': layer__9,'<img src="legend/_8.png" /> สร้อยนกเขา': layer__8,'<img src="legend/_7.png" /> ไส้ตันตาแดง': layer__7,'<img src="legend/_6.png" /> หมอช้างเหยียบ': layer__6,'<img src="legend/_5.png" /> หางนกยูง': layer__5,'<img src="legend/Province_4.png" /> Province': layer_Province_4,'<img src="legend/Station_3.png" /> Station': layer_Station_3,'<img src="legend/PipeLinePTT_2.png" /> PipeLinePTT': layer_PipeLinePTT_2,'<img src="legend/zonePipeline_1.png" /> zonePipeline': layer_zonePipeline_1,"GoogleMaps": layer_GoogleMaps_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_zonePipeline_1.eachLayer(function(layer) {
